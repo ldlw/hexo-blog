@@ -6,18 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hello World | Levin的博客</title>
+  <title>vue移动端支付 | Levin的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="一、支付宝支付 其实支付宝支付也有支付宝环境和非支付宝环境，这里只做了非支付宝环境即可满足项目需求 支付宝中的H5支付和PC端的一样，主要是后端的工作量，后端完成订单的生成之后返给前端的是form表单，前端只需要负责做页面的跳转即可：123456789&#x2F;&#x2F;立即支付按钮    onSubmit() &amp;#123;        if (this.payWay &#x3D;&amp;#x3D">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2019/12/29/hello-world/index.html">
+<meta property="og:title" content="vue移动端支付">
+<meta property="og:url" content="http://yoursite.com/2019/12/29/vue%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%94%AF%E4%BB%98/index.html">
 <meta property="og:site_name" content="Levin的博客">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="一、支付宝支付 其实支付宝支付也有支付宝环境和非支付宝环境，这里只做了非支付宝环境即可满足项目需求 支付宝中的H5支付和PC端的一样，主要是后端的工作量，后端完成订单的生成之后返给前端的是form表单，前端只需要负责做页面的跳转即可：123456789&#x2F;&#x2F;立即支付按钮    onSubmit() &amp;#123;        if (this.payWay &#x3D;&amp;#x3D">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2019-12-29T03:31:12.374Z">
-<meta property="article:modified_time" content="2019-12-29T03:31:12.376Z">
+<meta property="article:published_time" content="2019-12-29T12:43:37.000Z">
+<meta property="article:modified_time" content="2019-12-29T16:55:13.797Z">
 <meta property="article:author" content="Levin">
+<meta property="article:tag" content="vue">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Levin的博客" type="application/atom+xml">
@@ -152,39 +153,53 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-vue移动端支付" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      vue移动端支付
     </h1>
   
 
         
-        <a href="/2019/12/29/hello-world/" class="archive-article-date">
-  	<time datetime="2019-12-29T03:31:12.374Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-29</time>
+        <a href="/2019/12/29/vue%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%94%AF%E4%BB%98/" class="archive-article-date">
+  	<time datetime="2019-12-29T12:43:37.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-12-29</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h3 id="一、支付宝支付"><a href="#一、支付宝支付" class="headerlink" title="一、支付宝支付"></a>一、支付宝支付</h3><ul>
+<li>其实支付宝支付也有支付宝环境和非支付宝环境，这里只做了非支付宝环境即可满足项目需求</li>
+<li>支付宝中的H5支付和PC端的一样，主要是后端的工作量，后端完成订单的生成之后返给前端的是form表单，前端只需要负责做页面的跳转即可：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F;立即支付按钮</span><br><span class="line">    onSubmit() &#123;</span><br><span class="line">        if (this.payWay &#x3D;&#x3D; 1) &#123;</span><br><span class="line">            &#x2F;&#x2F;支付宝支付</span><br><span class="line">            this.$router.push(&#123;path: &#39;&#x2F;aliPay&#39;, query: &#123;orderId: this.orderId&#125;&#125;);</span><br><span class="line">        &#125; else if (this.payWay &#x3D;&#x3D; 2) &#123;</span><br><span class="line">         &#x2F;&#x2F;微信支付</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></li>
+<li>选择支付宝方式之后进入支付宝承载页面：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div v-html&#x3D;&quot;html&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line">&lt;&#x2F;template&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">    import &#123;reqAlipay&#125; from &#39;..&#x2F;..&#x2F;api&#39;;</span><br><span class="line">    export default &#123;</span><br><span class="line">      data()&#123;</span><br><span class="line">        return&#123;</span><br><span class="line">          html:&#39;&#39;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;,</span><br><span class="line">      methods:&#123;</span><br><span class="line">        async fetchVideoPay()&#123;</span><br><span class="line">          let order_code &#x3D; this.$route.query.order_code;</span><br><span class="line">          let asv_coupon_id &#x3D; this.$route.query.asv_coupon_id;</span><br><span class="line">          let token &#x3D; this.$route.query.token;</span><br><span class="line">          const alipay &#x3D; await reqAlipay(order_code, asv_coupon_id, token)</span><br><span class="line">          &#x2F;&#x2F; console.log(alipay);</span><br><span class="line">          &#x2F;&#x2F; if (alipay.errno &#x3D;&#x3D; &#39;10000&#39;) &#123;</span><br><span class="line">            this.html &#x3D; alipay;</span><br><span class="line">            this.$nextTick(() &#x3D;&gt; &#123;</span><br><span class="line">              document.forms[0].submit()   &#x2F;&#x2F;渲染支付宝支付页面</span><br><span class="line">            &#125;)</span><br><span class="line">            &#x2F;&#x2F; console.log(&#39;渲染页面&#39;);</span><br><span class="line">          &#x2F;&#x2F; &#125; else &#123;</span><br><span class="line">            </span><br><span class="line">          &#x2F;&#x2F; &#125;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;,</span><br><span class="line">      mounted()&#123;</span><br><span class="line">        this.fetchVideoPay()</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&lt;&#x2F;script&gt;</span><br><span class="line">&lt;style lang&#x3D;&#39;stylus&#39; rel&#x3D;&#39;stylesheet&#x2F;stylus&#39; scoped&gt;</span><br><span class="line">&lt;&#x2F;style&gt;</span><br></pre></td></tr></table></figure></li>
+<li>进入到支付宝支付页（至此但有一个问题，调起支付后，用户中途取消支付或者点返回键会整个网页一起关闭退出，或者一直在进入支付页面，不知道有没有更好的SEO方案）</li>
+</ul>
+<h3 id="一、支付宝支付-1"><a href="#一、支付宝支付-1" class="headerlink" title="一、支付宝支付"></a>一、支付宝支付</h3><ul>
+<li>先判断是否是微信环境<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">is_weixn()&#123;</span><br><span class="line">  var ua &#x3D; window.navigator.userAgent.toLowerCase();</span><br><span class="line">  if (ua.match(&#x2F;MicroMessenger&#x2F;i) &#x3D;&#x3D; &#39;micromessenger&#39;)&#123;</span><br><span class="line">    return true;</span><br><span class="line">  &#125; else &#123;</span><br><span class="line">    return false;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<ol>
+<li>微信外部支付</li>
+</ol>
+<ul>
+<li>微信外支付，官方文档也写的很清楚，后端返回一个url地址，前端的工作就是拿到这个url地址进行跳转就可以了</li>
+<li>微信外部支付是非常简单，下面是我在项目中的实际代码：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">onSubmit() &#123;</span><br><span class="line">    const wxwarrp &#x3D; await reqWechat(this.order_code, asv_coupon_id, this.token)</span><br><span class="line">    &#x2F;&#x2F; reqWechat是我封装好的微信外部支付api</span><br><span class="line">    if(wxwarrp.status &#x3D;&#x3D;&#x3D; 1)&#123;</span><br><span class="line">      let url&#x3D;wxwarrp.url</span><br><span class="line">      window.location.replace(url)   &#x2F;&#x2F;这里是后端返回的URL直接进行跳转即可完成微信外支付</span><br><span class="line">    &#125;else&#123;</span><br><span class="line">      Toast(&#123;</span><br><span class="line">        message: &#39;支付请求已失效，请重新发起支付&#39;,</span><br><span class="line">        position: &#39;middle&#39;,</span><br><span class="line">        duration: 1000,</span><br><span class="line">        forbidClick: true</span><br><span class="line">      &#125;);</span><br><span class="line">      &#x2F;&#x2F; 这里的Toast是我使用了Vant插件的一个提示弹窗组件</span><br><span class="line">      let order_code &#x3D; this.order_code;</span><br><span class="line">      let token &#x3D; this.token;</span><br><span class="line">      window.location.href &#x3D; &quot;https:&#x2F;&#x2F;m.cheduo.com&#x2F;html&#x2F;asv&#x2F;order_det?order_code&#x3D;&quot;+order_code+&#39;&amp;token&#x3D;&#39;+token;</span><br><span class="line">      &#x2F;&#x2F; 这里是请求失败后直接跳转到订单详情页并提示用户支付失败</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<ol>
+<li>微信内部支付</li>
+</ol>
+<ul>
+<li>微信内部支付的话就要麻烦很多了<br>首先要获取到openId，然后还要获取到用户的code，之后再根据后台返回来的微信签名、微信签名方式、appId、时间戳、随机串等调起支付。</li>
+<li>下面是我在项目中的实际代码：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br></pre></td><td class="code"><pre><span class="line">async onPay()&#123;</span><br><span class="line">    let appID;</span><br><span class="line">    let result;</span><br><span class="line">    if(this.radio &#x3D;&#x3D; &#39;1&#39; &amp;&amp; this.isWX) &#123; &#x2F;&#x2F; 这里是判断用户是否是在微信环境内并选择微信支付</span><br><span class="line">        let asv_coupon_id &#x3D; this.getCookie(&#39;couponId&#39;);</span><br><span class="line">        if (!asv_coupon_id) &#123;</span><br><span class="line">          asv_coupon_id &#x3D; 0;</span><br><span class="line">        &#125; &#x2F;&#x2F; 这一段是优惠卷ID的获取</span><br><span class="line">        try &#123;</span><br><span class="line">          result &#x3D; await reqWxopenID(this.code)</span><br><span class="line">          appID &#x3D; result.datas.openid;</span><br><span class="line">          console.log(result, appID);</span><br><span class="line">          &#x2F;&#x2F; 这里是获取openId</span><br><span class="line">        &#125; catch (error) &#123;</span><br><span class="line">          console.log(error);</span><br><span class="line">        &#125;</span><br><span class="line">        const inwx &#x3D; await reqInwechat(this.order_code, appID, asv_coupon_id, this.token);</span><br><span class="line">        &#x2F;&#x2F; 这里是调起微信内部支付的接口api</span><br><span class="line">        if (inwx.status &#x3D;&#x3D;&#x3D; 1) &#123;</span><br><span class="line">          const pay_params &#x3D; inwx.data</span><br><span class="line">          if (typeof WeixinJSBridge &#x3D;&#x3D; &quot;undefined&quot;)&#123;</span><br><span class="line">            if(document.addEventListener) &#123;</span><br><span class="line">              document.addEventListener(&#39;WeixinJSBridgeReady&#39;, this.onBridgeReady, false);</span><br><span class="line">            &#125;else if (document.attachEvent)&#123;</span><br><span class="line">              document.attachEvent(&#39;WeixinJSBridgeReady&#39;, this.onBridgeReady); </span><br><span class="line">              document.attachEvent(&#39;onWeixinJSBridgeReady&#39;, this.onBridgeReady);</span><br><span class="line">            &#125;</span><br><span class="line">          &#125;else&#123;</span><br><span class="line">            this.onBridgeReady(pay_params,this);</span><br><span class="line">          &#125;</span><br><span class="line">        &#125;else &#123;</span><br><span class="line">          Toast(&#123;</span><br><span class="line">            message: &#39;支付请求失败&#39;,</span><br><span class="line">            position: &#39;middle&#39;,</span><br><span class="line">            duration: 1000,</span><br><span class="line">            forbidClick: true</span><br><span class="line">          &#125;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;,</span><br><span class="line">onBridgeReady(params,_this,appID) &#123;</span><br><span class="line">  const pay_params &#x3D; JSON.parse(params);</span><br><span class="line">  let res;</span><br><span class="line">  let appid&#x3D;&#39;wxa9bc2c68483cb54c&#39;; &#x2F;&#x2F; 这里是appid</span><br><span class="line">  if (!appID) &#123;</span><br><span class="line">    async () &#x3D;&gt; &#123;</span><br><span class="line">      try &#123;</span><br><span class="line">        res &#x3D; await reqWxopenID(_this.code)</span><br><span class="line">        &#x2F;&#x2F; 获取openId</span><br><span class="line">      &#125; catch (error) &#123;</span><br><span class="line">        &#x2F;&#x2F; console.log(error);</span><br><span class="line">      &#125;</span><br><span class="line">      appID &#x3D; res.data.openid;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  WeixinJSBridge.invoke(</span><br><span class="line">    &#39;getBrandWCPayRequest&#39;, &#123;</span><br><span class="line">      &quot;appId&quot;: appid,  &#x2F;&#x2F;公众号名称，由商户传入     </span><br><span class="line">      &quot;timeStamp&quot;: pay_params.timeStamp,  &#x2F;&#x2F;时间戳，自1970年以来的秒数     </span><br><span class="line">      &quot;nonceStr&quot;: pay_params.nonceStr,  &#x2F;&#x2F;随机串     </span><br><span class="line">      &quot;package&quot;: pay_params.package,     </span><br><span class="line">      &quot;signType&quot;: pay_params.signType,  &#x2F;&#x2F;微信签名方式：     </span><br><span class="line">      &quot;paySign&quot;: pay_params.paySign  &#x2F;&#x2F;微信签名 </span><br><span class="line">    &#125;,</span><br><span class="line">    function(res)&#123;</span><br><span class="line">      &#x2F;&#x2F; alert(191,&#39;进入微信内部支付了&#39;)</span><br><span class="line">      if(res.err_msg &#x3D;&#x3D; &quot;get_brand_wcpay_request:ok&quot;)&#123;</span><br><span class="line">        Toast(&#39;支付成功！&#39;);</span><br><span class="line">        let order_code &#x3D; _this.order_code;</span><br><span class="line">        let token &#x3D; _this.token;</span><br><span class="line">        window.location.href &#x3D; &quot;https:&#x2F;&#x2F;m.cheduo.com&#x2F;html&#x2F;asv&#x2F;order_det?order_code&#x3D;&quot;+order_code+&#39;&amp;token&#x3D;&#39;+token;</span><br><span class="line">      &#125;else if(res.err_msg &#x3D;&#x3D; &#39;get_brand_wcpay_request:cancel&#39;) &#123;</span><br><span class="line">        Toast(&#39;您已取消支付&#39;);</span><br><span class="line">        let order_code &#x3D; _this.order_code;</span><br><span class="line">        let token &#x3D; _this.token;</span><br><span class="line">        window.location.href &#x3D; &quot;https:&#x2F;&#x2F;m.cheduo.com&#x2F;html&#x2F;asv&#x2F;order_det?order_code&#x3D;&quot;+order_code+&#39;&amp;token&#x3D;&#39;+token;</span><br><span class="line">      &#125; else &#123;</span><br><span class="line">        Toast(&#39;未知错误.错误详情：&#39;+res.err_msg);</span><br><span class="line">        let order_code &#x3D; _this.order_code;</span><br><span class="line">        let token &#x3D; _this.token;</span><br><span class="line">        window.location.href &#x3D; &quot;https:&#x2F;&#x2F;m.cheduo.com&#x2F;html&#x2F;asv&#x2F;order_det?order_code&#x3D;&quot;+order_code+&#39;&amp;token&#x3D;&#39;+token;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;); </span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure></li>
+<li>就是获取用户code，我在项目中是有一个下订单流程，在下订单后才会跳转到支付页面，所以在微信内部环境时下订单的时候就要通过用户无感登录的方式获取到用户code<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">onOrder() &#123;</span><br><span class="line">    if (this.$store.state.isWX) &#123;</span><br><span class="line">      let payUrl &#x3D; &#96;https:&#x2F;&#x2F;m.cheduo.com&#x2F;html&#x2F;paydir&#x2F;asv-pay?order_code&#x3D;$&#123;order_code&#125;&amp;token&#x3D;$&#123;token&#125;&#96;;</span><br><span class="line">      &#x2F;&#x2F; 这里的?order_code&#x3D;$&#123;order_code&#125;&amp;token&#x3D;$&#123;token&#125;是为了向支付页面传参</span><br><span class="line">      let wxUrl &#x3D; &quot;https:&#x2F;&#x2F;open.weixin.qq.com&#x2F;connect&#x2F;oauth2&#x2F;authorize?appid&#x3D;wxa9bc2c68483cb54c&amp;redirect_uri&#x3D;&quot;+payUrl+&quot;&amp;response_type&#x3D;code&amp;scope&#x3D;snsapi_base&amp;state&#x3D;STATE&amp;connect_redirect&#x3D;1#wechat_redirect&quot;;</span><br><span class="line">      &#x2F;&#x2F; 这才是真正的无感登录获取用户code</span><br><span class="line">      window.location.href &#x3D; wxUrl;</span><br><span class="line">      console.log(wxUrl);</span><br><span class="line">    &#125;else &#123;</span><br><span class="line">      this.$router.push(&#123; path: &#39;&#x2F;paydir&#x2F;asv-pay&#39;, query: &#123; order_code &#125; &#125;)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>至此微信内部支付完成</li>
+</ul>
 
       
 
@@ -219,6 +234,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">vue</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -269,7 +295,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/12/29/hello-world/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/12/29/vue%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%94%AF%E4%BB%98/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -305,7 +331,7 @@
   
 
   
-  <div id="SOHUCS" sid="hello-world" ></div> 
+  <div id="SOHUCS" sid="vue移动端支付" ></div> 
 <script charset="utf-8" type="text/javascript" src="//changyan.sohu.com/upload/changyan.js" ></script>
 <script type="text/javascript">
     window.changyan.api.config({
@@ -402,6 +428,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">vue</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
